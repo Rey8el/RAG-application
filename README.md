@@ -9,6 +9,9 @@ This RAG (Retrieval-Augmented Generation) application allows users to input a qu
 - **Information Retrieval**: Searches the provided PDF, Wikipedia, and Google for relevant information.
 - **Summary Generation**: Generates a detailed summary based on the retrieved information.
 
+## Application
+https://github.com/user-attachments/assets/08ec5036-7fc9-45d0-b20f-594654eef9ed
+
 ## Requirements
 
 - Python 3.8+
