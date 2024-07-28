@@ -1,0 +1,8 @@
+streamlit
+python-dotenv
+wikipedia-api
+PyPDF2
+langchain-community-tools
+langchain-community-utilities
+langchain-core
+groq
