@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/08ec5036-7fc9-45d0-b20f-594654eef9ed
 
 ## Requirements
 
-- Python 3.8+
+- Python
 - Streamlit
 - python-dotenv
 - wikipedia-api
