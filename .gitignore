@@ -1,2 +1,5 @@
 .env
 .venv
+desktop.ini
+source_documents
+temp.py
