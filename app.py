@@ -82,21 +82,33 @@ if st.button("Create a vector store"):
 # Prompt template
 prompt = ChatPromptTemplate.from_template(
 """
-Answer the question based on the provided context in at least 100 words. 
-Provide the most accurate and detailed response based on the available information. 
-Every correct response will get you a big prize.
+"You are an AI chatbot designed to provide comprehensive responses based on information extracted from a PDF document, Wikipedia, and Google search results. For each user query, follow these steps and structure your response using the specified format:
 
-## Based on PDF Content
+                    ### Instructions:
+
+                    1. **PDF Information**:
+                        - Extract relevant information from the provided PDF document.
+                        - Write at least 250 words summarizing the key points related to the user query.
+
+                    2. **Wikipedia Summary**:
+                        - Search for a summary on Wikipedia related to the user query.
+                        - Write at least 250 words summarizing the Wikipedia entry and how it relates to the query.
+
+                    3. **Google Search**:
+                        - Conduct a Google search for the user query.
+                        - Write at least 250 words summarizing the top search results and provide additional insights or context.
+
+1.PDF Content
 <context>
 {context}
 </context>
 
-## Based on Wikipedia Summary
+2.Wikipedia Summary
 <wikipedia_result>
 {wikipedia_result}
 </wikipedia_result>
 
-## Based on Google Search Results
+3.Google Search Results
 <google_result>
 {google_result}
 </google_result>
