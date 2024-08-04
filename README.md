@@ -10,7 +10,8 @@ This RAG (Retrieval-Augmented Generation) application allows users to input a qu
 - **Summary Generation**: Generates a detailed summary based on the retrieved information.
 
 ## Application
-https://github.com/user-attachments/assets/08ec5036-7fc9-45d0-b20f-594654eef9ed
+https://github.com/user-attachments/assets/4da9c9fe-5de8-4753-9a81-8848ead754fb
+
 
 ## Requirements
 
